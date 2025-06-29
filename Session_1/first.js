@@ -10,15 +10,9 @@ var GPA = 85.3;
 console.log(Number(GPA), typeof NaN);
 //Extra Code I Added
 console.log("My job is:" + job);
-var job = 'Nothing';
+const job = 'Nothing';
 console.log(String('name') + ': ' + 'Tamara Tumeh' + ' | ' + String('age') + ': ' + (true + 1) + '1' + ' | ' + String('student') + ': ' + confirm('true') + ' | ' + String('GPA') + ': ' + 85.3)
-function valuesandtypes(values) {
-    return values + ' | ' + typeof values;
-}
-//test my function
-console.log(valuesandtypes(Name));
-console.log(valuesandtypes(age));
-console.log(valuesandtypes(student));
+
 ////////////////////////////
 // User Name
 var username;
@@ -42,20 +36,20 @@ console.log(null + 1);
 // null is empty and is represented by 0 and 0 + 1 = 1
 ////////////////////////////
 // Age Calculator
-let birthyear = prompt('Enter your birth year?');
-var currentyear = 2025;
-var Age = currentyear - birthyear;
+let birthyear = Number(prompt('Enter your birth year?'));
+let currentyear = 2025;
+let Age = currentyear - birthyear;
 alert(String('Your age is') + ': ' + Age);
 ////////////////////////////
 // Basic Calculator
-var x, y, sum, difference, product, division, remainder;
-x = parseInt(prompt('Enter the first number:'));
-y = parseInt(prompt('Enter the second number:'));
-sum = x + y;
-difference = x - y;
-product = x * y;
-division = x / y;
-remainder = x % y;
+let Number1, Number2, sum, difference, product, division, remainder;
+Number1 = Number(prompt('Enter the first number:'));
+Number2 = Number(prompt('Enter the second number:'));
+sum = Number1 + Number2;
+difference = Number1 - Number2;
+product = Number1 * Number2;
+division = Number1 / Number2;
+remainder = Number1 % Number2;
 alert("The Sum is: " + sum + "\n" +
     "The Difference is: " + difference + "\n" +
     "The Product is: " + product + "\n" +
