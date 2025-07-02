@@ -5,9 +5,9 @@ var age;
 age = 100 % 79;
 console.log(age, typeof 21);
 const student = 1 == 1;
-console.log(Boolean(-21), typeof student);
-var GPA = 85.3;
-console.log(Number(GPA), typeof NaN);
+console.log(Boolean(student), typeof student);
+let GPA = 85.3;
+console.log(GPA, typeof NaN);
 //Extra Code I Added
 console.log("My job is:" + job);
 var job = 'Nothing';
