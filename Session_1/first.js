@@ -10,7 +10,7 @@ var GPA = 85.3;
 console.log(Number(GPA), typeof NaN);
 //Extra Code I Added
 console.log("My job is:" + job);
-const job = 'Nothing';
+var job = 'Nothing';
 console.log(String('name') + ': ' + 'Tamara Tumeh' + ' | ' + String('age') + ': ' + (true + 1) + '1' + ' | ' + String('student') + ': ' + confirm('true') + ' | ' + String('GPA') + ': ' + 85.3)
 
 ////////////////////////////
